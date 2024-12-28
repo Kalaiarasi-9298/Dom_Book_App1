@@ -1,0 +1,33 @@
+body{
+            
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: antiquewhite;
+
+}
+div{
+    display: grid;
+    width: 300px;
+    gap: 20px;
+   
+}
+#navbar{
+display: flex;
+/* gap: 55px; */
+height: 20px;
+width: 300px;
+justify-content: space-between;
+
+
+background-color: blueviolet;
+padding: 20px;
+margin-bottom: 20px;
+
+}
+a{
+color: white;
+text-decoration: none;
+
+}
