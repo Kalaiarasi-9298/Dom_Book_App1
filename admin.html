@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    #admin_form{
+
+    }
+
+    </style>
 </head>
 <body>
+
     <div>
     <!-- All pages should share a common navigation bar with three links: -->
     <nav id="navbar">
@@ -21,15 +28,18 @@
 A select dropdown for the category with options: fiction, comedy, and technical. -->
         <input id="title" type="text" value="" placeholder="Title">
         <input id="author" type="text" value="" placeholder="Author">
-        <br>
-        <input id="title" type="text" value="" placeholder="Category">
-        <select name="category" id="category" placeholder="category">
-            
-
+        <input id="category" type="text" placeholder="Category">
+        <select name="category" id="category"> 
+            <option id="fiction" >fiction</option>
+            <option id="comedy">comedy</option>
+            <option id="technical">technical</option>
         </select>
 
 
     </form>
+   
+     
+  
 </div>
 </body>
 </html>
