@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="script.js">
+    <link rel="text" href="script.js">
+    <link rel="db" href="db.Json">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <div>
     <!-- All pages should share a common navigation bar with three links: -->
     <nav id="navbar">
         <a id="home" href="index.html">Home</a>
@@ -18,33 +22,8 @@
         <input id="password1" type="password" placeholder="Password" value="">
         <input id="btn" type="submit" onclick="update()">
    
-   
+    </div>
      
 </body>
-<script>
-    var userLogin= document.getElementById("home")
-var adminLogin= document.getElementById("admin")
-
-var Email= document.getElementById("email1")
-var Password= document.getElementById("password1")
-var btn= document.getElementById("btn")
-
-// btn.addEventListener("click", function(){
-//  event.preventDefault()
- 
-        
-//    alert("Logged in as Admin")
-// })
-function update(){
-//  event.preventDefault();
-let result= Email.value;
-let pass1= Password.value;
-    if(result=="admin@empher.com" && pass1=="empher@123"){
-       alert("Logged in as Admin")
-    }
-    else{
-        alert("Logged as user")
-    }
-}
-</script>
+<script src="script.js" src="module"></script>
 </html>

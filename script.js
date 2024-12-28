@@ -1,3 +1,5 @@
+
+
 var userLogin= document.getElementById("home")
 var adminLogin= document.getElementById("admin")
 
@@ -18,6 +20,8 @@ let pass1= Password.value;
     if(result=="admin@empher.com" && pass1=="empher@123"){
        window.location.href="./admin.html"
         alert("Logged in as Admin")
+        
+        
     }
     else if(result=="user@empher.com" && pass1=="user@123"){
         window.location.href="./books.html"
@@ -25,4 +29,7 @@ let pass1= Password.value;
     else{
         alert("Error...")
     }
+
 }
+const loginData=JSON.stringify(result, pass1);
+const loginCredential= JSON.parse(result, pass1);
